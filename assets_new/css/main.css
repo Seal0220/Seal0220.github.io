@@ -1,0 +1,390 @@
+body {
+  margin: 0;
+  background:url("../../images/bg.jpg"); /*主要背景圖*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  color: rgb(149, 217, 252);
+}
+a:active{
+  color: rgb(54, 130, 181);
+}
+
+
+hr {
+  background-color: black;
+  height: 1px;
+  border: none;
+}
+
+ul {
+  list-style: circle;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+li {
+  margin: 20px 0px;
+}
+
+/*intro*/
+
+.white-top {
+  position: fixed; 
+  background-color: white;
+  background-size: 100%;
+  height: calc((100% - 30vw) * 0.5);
+  width: 100%;
+  margin: 0;
+  top: 0;
+}
+
+.white-bottom {
+  position: fixed; 
+  background-color: white;
+  background-size: 100%;
+  height: calc((100% - 30vw) * 0.5);
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+}
+
+.top-name {
+  position: absolute; 
+  background: url("../../images/Name.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  z-index: 95;
+  margin: 0;
+  top: 0px;
+}
+
+.top-name-seal {
+  position: absolute; 
+  background: url("../../images/Name-seal.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  height: 200vh;
+  width: 100%;
+  z-index: 96;
+  margin: 0;
+  top: 100vh;
+}
+
+.top-seal {
+  position: absolute; 
+  background: url("../../images/SEAL-1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+  height: 200vh;
+  width: 100%;
+  z-index: 97;
+  margin: 0;
+  top: 200vh;
+}
+
+.top-container {
+  top: 0;
+  margin: 0;
+  height: 300vh;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.4em black;
+  user-select: none;
+  cursor: default;
+  position: sticky;
+  z-index: 98;
+ }
+
+ /*個人資料*/
+
+ .profile {
+  position: absolute;
+  background-color: white;
+  height: 115vh;
+  top: calc(30vw + 295vh);
+  width: 100%;
+  z-index: 60;
+ }
+
+
+.div_absolute_1 {
+  position: absolute; 
+  background: url("../../images/專題標語.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 30%;
+  background-position: left;
+  width: 30%;
+  background-color: #000000; 
+  padding:20px;
+  height: 300vh;
+  left: 0;
+  top: 350vh;
+  z-index: 50;
+}
+
+.div_absolute_2 {
+  position: absolute; 
+  background-color: black;
+  background-position: right;
+  width: 70%;
+  background-color: #000000; 
+  padding:20px;
+  height: 300vh;
+  right: 0;
+  z-index: 1;
+}
+
+.div_absolute_3 {
+  position: absolute; 
+  background-image: url("../../images/project01/1.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black ;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  z-index: 2;
+}
+
+.div_absolute_4 {
+  position: absolute; 
+  background-image: url("../../images/project01/2.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 80rem;
+  z-index: 1;
+}
+
+.div_absolute_5 {
+  position: absolute; 
+  background-image: url("../../images/project01/3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 140rem;
+  z-index: 1;
+}
+
+.div_absolute_6 {
+  position: absolute; 
+  background-image: url("../../images/project01/4.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 200rem;
+  z-index: 2;
+}
+
+.div_absolute_7 {
+  position: absolute; 
+  background-image: url("../../images/project01/5.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 230rem;
+  z-index: 3;
+}
+
+.div_absolute_8 {
+  position: absolute; 
+  background-image: url("../../images/project01/6.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 270rem;
+  z-index: 4;
+}
+
+.div_absolute_9 {
+  position: absolute; 
+  background-image: url("../../images/project01/7.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 300rem;
+  z-index: 5;
+}
+
+.div_absolute_10 {
+  position: absolute; 
+  background-color: black;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 50rem;
+  right: 0;
+  top: 330rem;
+  z-index: 6;
+}
+
+.div_absolute_11 {
+  position: absolute; 
+  background-color: black;
+  background-size: 70%;
+  background-position: right;
+  width: 70%;
+  height: 55rem;
+  right: 0;
+  top: 375rem;
+  z-index: 5;
+}
+
+.div_absolute_12 {
+  position: absolute; 
+  background-color: rgb(54, 130, 181);
+  width: 100%;
+  height: 10rem;
+  right: 0;
+  top: 420rem;
+  z-index: 60;
+}
+
+
+.div_absolute_13 {
+  position: absolute; 
+  background-color: black;
+  width: 100%;
+  height: 80rem;
+  right: 0;
+  top: 420rem;
+  z-index: 10;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+
+/*header*/
+
+.header {
+  position: absolute;
+  width: 100%;
+  padding: 10px 0px;
+  background: rgb(149, 217, 252);
+  color: #ffffff;
+  z-index: 99;
+  top: calc(30vw + 295vh);
+}
+
+
+/*MENU*/
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background: rgb(54, 130, 181);
+  color: #ffffff;
+  z-index: 100;
+  top: calc(30vw + 410vh);
+}
+
+.menu a:link, .menu a:visited {
+    display: block;
+    color: white;
+    background-color: rgb(54, 130, 181);
+    text-align: center;
+    padding: 37px 50px;
+    text-decoration: none;
+    text-transform: capitalize; 
+  }
+
+.menu a:hover {
+    background-color: rgb(54, 130, 181);
+  }
+
+.menu a:active {
+    background-color: rgb(54, 130, 181);
+  }
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.menu li {
+  user-select: none;
+  cursor: default;
+  margin: 0 -0.5px;
+  float: left;
+}
+
+
+/*sticky*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content-1  {
+  padding-top: 111px;
+}
+
+.sticky + .div_absolute_3  {
+  padding-top: 143px;
+}
+
+
+/*其他*/
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin:0 10px;
+}
+
+
